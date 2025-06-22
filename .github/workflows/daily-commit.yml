@@ -16,7 +16,7 @@ jobs:
 
       - name: Commit step - 23f2000278@ds.study.iitm.ac.in
         run: |
-          echo "TDSFU Daily run: $(date -u) TDSFU" >> daily-log.txt
+          echo "TDSFU Daily run: $(date -u) TDSFU $RANDOM" >> daily-log.txt
 
       - name: Git Commit and Push
         run: |
